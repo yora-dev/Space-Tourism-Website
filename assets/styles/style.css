@@ -1,0 +1,100 @@
+:root {
+  --dark-blue: rgb(11, 13, 23);
+  --light-blue: rgb(208, 214, 249);
+  --white: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("/assets/home/background-home-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2.4rem;
+  color: var(--white);
+  height: 100vh;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2.4rem;
+}
+
+.nav__hamburger,
+.nav__close {
+  cursor: pointer;
+}
+
+.nav__close {
+  display: none;
+}
+
+.nav__list {
+  display: none;
+}
+
+/* Typography */
+
+.text-1 {
+  font-family: "Bellefair", serif;
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+
+.text-2 {
+  font-family: "Bellefair", serif;
+  font-size: 5.6rem;
+}
+
+.text-3 {
+  font-size: 2.4rem;
+  font-family: "Bellefair", serif;
+}
+
+.text-4 {
+  font-family: "Bellefair", serif;
+  font-size: 1.8rem;
+}
+
+.text-6 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.6rem;
+}
+
+.text-8 {
+  font-size: 1.4rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.text-9 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5rem;
+}
+
+.home__text {
+  text-align: center;
+}
+
+.home__subheading {
+  text-transform: uppercase;
+  color: var(--light-blue);
+  margin: 2.4rem 0;
+  letter-spacing: 3px;
+}
+
+.home__heading {
+  margin-bottom: 4.8rem;
+}
