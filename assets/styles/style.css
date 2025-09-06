@@ -34,6 +34,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2.4rem;
+  position: relative;
 }
 
 .nav__hamburger,
@@ -45,8 +46,44 @@ body {
   display: none;
 }
 
+.nav__item {
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 3.2rem;
+}
+
+.nav__item a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
 .nav__list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 10rem;
+  right: -24px;
+  top: -24px;
+  background-color: rgba(11, 13, 23, 0.5);
+  padding: 13.3rem 3.2rem 3.2rem 3.2rem;
+  backdrop-filter: blur(25px);
+  height: 100vh;
+  z-index: -11;
   display: none;
+}
+
+.nav__menu {
+  z-index: 23;
+}
+
+.item__bold {
+  font-weight: 700;
+  margin-right: 5px;
 }
 
 /* Typography */
