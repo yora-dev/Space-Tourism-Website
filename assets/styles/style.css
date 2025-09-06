@@ -22,12 +22,15 @@ body {
   background-position: center;
   padding: 2.4rem;
   color: var(--white);
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Navbar */
 .nav {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2.4rem;
@@ -84,6 +87,12 @@ body {
   font-size: 1.5rem;
 }
 
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .home__text {
   text-align: center;
 }
@@ -96,5 +105,29 @@ body {
 }
 
 .home__heading {
-  margin-bottom: 4.8rem;
+  margin-bottom: 3rem;
+}
+
+.home__message {
+  color: var(--light-blue);
+  line-height: 1.7;
+}
+
+.home__explore {
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 14.4rem;
+  width: 14.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--dark-blue);
+  transition: all 0.35s;
+  margin: 11.9rem 0;
+}
+
+.home__explore:hover {
+  box-shadow: 0 0 0 4rem rgba(255, 255, 255, 0.5);
 }
