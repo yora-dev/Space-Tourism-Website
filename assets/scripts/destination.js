@@ -1,23 +1,12 @@
 let destinationContainer = document.querySelector('.destination__container');
-let destinationLink = document.querySelectorAll('.destination__link');
-console.log(destinationLink);
 
-let api = async (destinationIndex) => {
+
+
+let destinationApi = async (destinationIndex) => {
   const dataFetch = await fetch("data.json");
   const data = await dataFetch.json();
   console.log(data.destinations);
   item = data.destinations[destinationIndex];
-
-  destinationLink.forEach(element => {
-    if (element.textContent.toLowerCase == item.name.toLowerCase) {
-      element.classList.add('active-link');
-    } else {
-      element.classList.remove('active-link');
-
-      console.log(element.textContent === item.name)
-    }
-
-  })
 
   destinationContainer.innerHTML = `
         <p class="destination__header text-6">
@@ -65,4 +54,19 @@ let api = async (destinationIndex) => {
           </div>
         </div>
       `;
+
+
+  let destinationLink = document.querySelectorAll('.destination__link');
+  console.log(destinationLink);
+
+  destinationLink.forEach(element => {
+    console.log(element.textContent)
+
+    if (element.textContent === item.name) {
+      element.classList.add('active-link');
+    } else if (element.textContent !== item.name) {
+      element.classList.remove('active-link');
+    }
+
+  })
 };
