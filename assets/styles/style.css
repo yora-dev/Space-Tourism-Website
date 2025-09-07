@@ -58,7 +58,7 @@ body {
   color: var(--white);
   font-family: "Barlow Condensed", sans-serif;
   font-size: 1.6rem;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -93,7 +93,7 @@ body {
 
 .active-page {
   border-bottom: 5px solid var(--white);
-  padding-bottom: 3.2rem;
+  /* padding-bottom: 3.2rem; */
 }
 
 /* Typography */
@@ -177,4 +177,78 @@ body {
 
 .home__explore:hover {
   box-shadow: 0 0 0 4rem rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+    padding: 0;
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  .nav__close,
+  .nav__hamburger {
+    display: none;
+  }
+
+  .nav__logo {
+    padding: 2.4rem 4rem;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(25px);
+    padding: 3.85rem 0;
+    align-items: center;
+    right: 0;
+    left: 130px;
+    top: 0px;
+    justify-content: space-around;
+  }
+
+  .nav__item {
+    margin: 0;
+  }
+
+  .active-page {
+    border-bottom: 3px solid var(--white);
+  }
+
+  .active-page .item__bold {
+    display: none;
+  }
+
+  .home__container {
+    padding: 12.8rem;
+  }
+
+  .home__subheading {
+    font-size: 2.8rem;
+  }
+
+  .home__heading {
+    font-size: 14.4rem;
+  }
+
+  .home__message {
+    font-size: 1.6rem;
+  }
+
+  .home__explore {
+    font-size: 3.2rem;
+    height: 27.2rem;
+    width: 27.2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url("/assets/home/background-home-desktop.jpg");
+  }
 }
