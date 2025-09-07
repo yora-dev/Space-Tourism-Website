@@ -1,0 +1,99 @@
+body {
+  background-image: url(../destination/background-destination-tablet.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destination__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destination__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination__header {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-top: 2.4rem;
+}
+
+.non__bold {
+  font-weight: 700;
+  color: var(--light-blue);
+  margin-right: 2.4rem;
+  opacity: 0.25;
+}
+
+.destination__img {
+  height: 15rem;
+  width: 15rem;
+  margin-top: 5.05rem;
+  align-self: center;
+}
+
+.destination__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination__links {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.destination__link {
+  text-decoration: none;
+  color: var(--light-blue);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 5.85rem;
+}
+
+.destination__heading {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.destination__message {
+  color: var(--light-blue);
+  line-height: 1.8;
+  text-align: center;
+  margin-top: 1.6rem;
+  padding-bottom: 2.4rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 2px solid var(--light-blue);
+}
+
+.destination__time,
+.destination__distance {
+  text-align: center;
+}
+
+.destination__distance {
+  margin-bottom: 2.4rem;
+}
+
+.info__subheading {
+  text-transform: uppercase;
+  color: var(--light-blue);
+  letter-spacing: 2px;
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.info__heading {
+  font-size: 2.8rem;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+}

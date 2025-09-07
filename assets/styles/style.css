@@ -179,6 +179,11 @@ body {
   box-shadow: 0 0 0 4rem rgba(255, 255, 255, 0.5);
 }
 
+.active-link {
+  border-bottom: 3px solid var(--white);
+  padding-bottom: 1.5rem;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-image: url("/assets/home/background-home-tablet.jpg");
