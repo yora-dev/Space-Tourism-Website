@@ -250,5 +250,50 @@ body {
 @media screen and (min-width: 1440px) {
   body {
     background-image: url("/assets/home/background-home-desktop.jpg");
+    padding-top: 4rem;
+  }
+
+  .nav {
+    justify-content: space-between;
+  }
+
+  .nav__list {
+    padding-left: 18.9rem;
+    padding-right: 6.4rem;
+    position: static;
+    gap: 5rem;
+  }
+
+  .home__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    padding: 0;
+    margin-left: 16.5rem;
+    margin-top: 12.8rem;
+    align-self: stretch;
+  }
+
+  .home__text {
+    text-align: left;
+  }
+
+  /* .home__explore,
+  .home__text {
+    flex: 1;
+  } */
+
+  .home__explore {
+    width: 272px;
+    height: 272px;
+    margin-left: 20rem;
+  }
+
+  .active-page .item__bold {
+    display: inline;
+  }
+
+  .home__message {
+    font-size: 1.8rem;
   }
 }
