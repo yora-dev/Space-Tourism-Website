@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/tech.css" />
+    <script src="assets/scripts/script.js" defer></script>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  03 Space launch 101
-
-  1
-  2
-  3
-
-  The terminology...
-  Spaceport
-
-  A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
-  by analogy to the seaport for ships or airport for aircraft. Based in the 
-  famous Cape Canaveral, our spaceport is ideally situated to take advantage 
-  of the Earth’s rotation for launch.
-</body>
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="assets/shared/logo.svg" alt="" class="nav__logo" />
+      <div class="nav__menu">
+        <img
+          src="assets/shared/icon-hamburger.svg"
+          alt=""
+          class="nav__hamburger"
+        />
+        <img src="assets/shared/icon-close.svg" alt="" class="nav__close" />
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html"><span class="item__bold">00</span> Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="destination-moon.html"
+              ><span class="item__bold">01</span> Destination</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="crew-commander.html"
+              ><span class="item__bold">02</span> Crew</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="active-page" href="technology-vehicle.html"
+              ><span class="item__bold">03</span> Technology</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="technology__container"></div>
+    <script src="assets/scripts/tech.js"></script>
+    <script></script>
+  </body>
 </html>

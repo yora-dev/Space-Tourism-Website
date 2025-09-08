@@ -10,9 +10,17 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/crew.css" />
+    <script src="assets/scripts/script.js" defer></script>
 
     <title>Frontend Mentor | Space tourism website</title>
-    <link rel="stylesheet" href="assets/styles/style.css" />
   </head>
   <body>
     <nav class="nav">
@@ -25,28 +33,29 @@
         />
         <img src="assets/shared/icon-close.svg" alt="" class="nav__close" />
         <ul class="nav__list">
-          <li class="nav__item active-page">
-            <a href="" class="active-page"
-              ><span class="item__bold">00</span> Home</a
-            >
+          <li class="nav__item">
+            <a href="index.html"><span class="item__bold">00</span> Home</a>
           </li>
           <li class="nav__item">
-            <a href="" class=""
+            <a href="destination-moon.html"
               ><span class="item__bold">01</span> Destination</a
             >
           </li>
           <li class="nav__item">
-            <a href=""><span class="item__bold">02</span> Crew</a>
+            <a class="active-page" href="crew-commander.html"
+              ><span class="item__bold">02</span> Crew</a
+            >
           </li>
           <li class="nav__item">
-            <a href=""><span class="item__bold">03</span> Technology</a>
+            <a href="technology-vehicle.html"
+              ><span class="item__bold">03</span> Technology</a
+            >
           </li>
         </ul>
       </div>
     </nav>
-    00 Home 01 Destination 02 Crew 03 Technology 02 Meet your crew Commander
-    Douglas Hurley Douglas Gerald Hurley is an American engineer, former Marine
-    Corps pilot and former NASA astronaut. He launched into space for the third
-    time as commander of Crew Dragon Demo-2.
+    <div class="destination__container"></div>
+    <script src="assets/scripts/crew.js"></script>
+    <script></script>
   </body>
 </html>
