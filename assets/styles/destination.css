@@ -148,3 +148,65 @@ body {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url(../destination/background-destination-desktop.jpg);
+  }
+
+  .destination__text {
+    margin: 0;
+    padding: 0;
+  }
+
+  .destination__container {
+    padding: 0 17.5rem;
+  }
+
+  .destination__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: stretch;
+    margin-top: 12.7rem;
+  }
+
+  .destination__heading,
+  .destination__message {
+    text-align: left;
+  }
+
+  .destination__text,
+  .destination__time,
+  .destination__distance,
+  .destination__info {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .destination__info {
+    margin-left: 0;
+  }
+
+  .destination__img {
+    height: 48rem;
+    width: 48rem;
+    margin: 0;
+    margin-right: 10.85rem;
+  }
+
+  .destination__link {
+    margin-top: 0;
+  }
+
+  .destination__header {
+    font-size: 2.8rem;
+  }
+
+  .info__heading {
+    font-size: 2.8rem;
+  }
+
+  .info__subheading {
+    font-size: 1.4rem;
+  }
+}
