@@ -153,4 +153,76 @@ body,
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    background-image: url(../technology/background-technology-desktop.jpg);
+  }
+
+  .technology__container {
+    padding-left: 16.5rem;
+  }
+
+  .tech__content {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .tech__text,
+  .tech__header,
+  .tech__links,
+  .tech__explanation {
+    padding: 0;
+  }
+
+  .tech__img-land {
+    display: none;
+    margin: 0;
+  }
+
+  .tech__img-port {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .tech__links {
+    flex-direction: column;
+    order: 1;
+    margin-right: 6.4rem;
+  }
+
+  .tech__link {
+    font-size: 3.2rem;
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .tech__text {
+    order: 2;
+    text-align: left;
+    margin-right: 3.2rem;
+  }
+
+  .tech__images {
+    order: 3;
+    width: 100%;
+  }
+
+  .tech__header {
+    font-size: 2.8rem;
+  }
+
+  .tech__heading {
+    font-size: 3.2rem;
+  }
+
+  .tech__type {
+    font-size: 5.6rem;
+  }
+
+  .tech__explanation {
+    font-size: 1.8rem;
+  }
 }
