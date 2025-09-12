@@ -65,7 +65,7 @@ body {
   gap: 1.6rem;
 }
 
-input {
+.crew {
   appearance: none;
   height: 1.2rem;
   width: 1.2rem;
@@ -73,6 +73,7 @@ input {
   border-radius: 50%;
   opacity: 0.5;
   margin-bottom: 3.2rem;
+  cursor: pointer;
 }
 
 .active-crew {
@@ -151,7 +152,7 @@ input {
     margin-bottom: 9.6rem;
   }
 
-  input {
+  .crew {
     margin: 0;
   }
 
