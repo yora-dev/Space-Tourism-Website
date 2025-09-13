@@ -44,7 +44,7 @@ body,
 
 .tech__img-port {
   width: 100%;
-  margin: 6.4rem 0 3.2rem;
+  margin: 6.4rem 0 3.2rem 0;
 }
 
 .tech__links {
@@ -190,8 +190,9 @@ body,
 
   .tech__img-port {
     display: block;
-    width: 100%;
+    width: 410px;
     margin: 0;
+    height: 500px;
   }
 
   .tech__links {
