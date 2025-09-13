@@ -59,6 +59,10 @@ body {
   margin-top: 5.85rem;
 }
 
+.destination__link:hover {
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+}
+
 .destination__heading {
   text-transform: uppercase;
   font-weight: 500;
@@ -96,6 +100,11 @@ body {
   font-size: 2.8rem;
   font-family: "Bellefair", serif;
   text-transform: uppercase;
+}
+
+.active-link {
+  border-bottom: 4px solid var(--white);
+  padding-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {

@@ -81,6 +81,10 @@ body {
   opacity: 1;
 }
 
+.crew:hover {
+  opacity: 1;
+}
+
 .crew__img {
   width: 100%;
   /* margin-bottom: 2.9rem; */

@@ -65,9 +65,16 @@ body,
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.35s ease;
 }
 
 .active-tech {
+  background-color: white;
+  color: var(--dark-blue);
+  border: none;
+}
+
+.tech__link:hover {
   background-color: white;
   color: var(--dark-blue);
   border: none;
