@@ -30,8 +30,6 @@ Users should be able to:
 
 ![](./preview.jpg)
 
-_(Replace this with an actual screenshot of your project. You can capture it using your browser’s screenshot tool or FireShot.)_
-
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/space-tourism-responsive-website-UsgSakMUe8
